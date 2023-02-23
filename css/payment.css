@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(255, 249, 240);
+}
+
+.leftpage{
+    margin-top: 5%;
+    background-color: rgb(236, 240, 240);
+    padding: 40px;
+    border-radius:10px 0 0px 10px ;
+}
+.rightpage{
+    margin-top: 5%;
+    background-color: rgb(215, 215, 215);
+    padding: 40px;
+    border-radius: 0 10px 10px 0 ;
+    color:#fff;
+    
+}
+
+#leftpage{
+    background-color: azure;
+    border: 0 0 0 1px, solid, #333;
+}
+a{
+    font-weight: 100;
+}
+input[placeholder]{
+    color: #fff;
+}
+.fa-stack[data-count]:after{
+    position:absolute;
+    right:60%;
+    top:35%;
+    content: attr(data-count);
+    font-size:15%;
+    padding:.6em;
+    border-radius:999px;
+    line-height:.75em;
+    color: white;
+    background:rgba(81, 78, 78, 0.85);
+    text-align:center;
+    min-width:2em;
+    font-weight:bold;
+  }
+.shipping{
+    color: #000;
+    border-bottom: px, solid,#333 ;
+}
+#return{
+    color: aqua;
+}
